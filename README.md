@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Smart LULC Analytics Dashboard - Tirupati District 🌍
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Status](https://img.shields.io/badge/Status-Hackathon_Ready-success) ![Tech](https://img.shields.io/badge/Tech-React_|_Chart.js_|_GeoAI-blue)
 
-## Available Scripts
+## 📌 Project Overview
 
-In the project directory, you can run:
+The **Smart LULC (Land Use Land Cover) Analytics Dashboard** is an AI-powered decision support system designed for city planners and governance bodies in Tirupati. It uses satellite imagery data (Sentinel-2) to track, visualize, and analyze land-use transitions over time, providing actionable insights for sustainable urban development.
 
-### `npm start`
+## 🚀 Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Transition Matrix**: Interactive heatmap showing precise area conversions (e.g., Agriculture → Built-up).
+- **AI Confidence Scoring**: Reliability metrics for every detected change to guide field verification.
+- **Urban Expansion Tracking**: Real-time alerts for critical land-use shifts.
+- **SaaS-Grade UI**: Modern, responsive dashboard with a "Command Center" aesthetic.
+- **Instant Reporting**: One-click CSV export for downstream analysis.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+- **Frontend**: React.js, CSS Modules (SaaS & Sci-Fi Themes)
+- **Visualization**: Chart.js, React-Chartjs-2
+- **Data Handling**: PapaParse (CSV processing)
+- **Deployment**: Vercel / Netlify Ready
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📂 Project Structure
 
-### `npm run build`
+```
+/public
+  ├── transition_data.csv  # Raw satellite transition data
+/src
+  ├── App.js               # Main Dashboard Logic & Layout
+  ├── App.css              # Styling (Themes: Glassmorphism, Neumorphism)
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚡ Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Ashwin605/LULC-analytics.git
+   ```
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+3. **Run the dashboard**
+   ```bash
+   npm start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📸 Demo Highlights
 
-### `npm run eject`
+_See `DEMO_GUIDE.md` for a full presentation script._
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+_Built for the Smart City Hackathon 2026._
