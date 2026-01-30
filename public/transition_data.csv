@@ -1,0 +1,7 @@
+from,to,area_sq_km,confidence
+Forest,Built-up,14.2,0.88
+Agriculture,Built-up,21.6,0.84
+Forest,Agriculture,9.1,0.81
+Water,Barren,1.3,0.90
+Barren,Built-up,6.4,0.86
+Agriculture,Barren,4.8,0.79
